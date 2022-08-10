@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  
+  div.head{
+    font-weight: bold;
+    margin-left: 170px;
+    font-size: 18px;
+  }
+
+  div.first{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    img{
+      width: 100%;
+    }
+
+    div{
+      box-shadow: 3px 3px 7px 3px rgb(150, 142, 142);
+    }
+    
+  }
+
+  div.learn{
+    display: flex;
+    justify-content: center;  
+    
+    button{
+      background-color: #0193DC;
+      border: none;
+      padding: 11px 33px;
+    }
+  }
+}

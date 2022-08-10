@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+body div.head {
+  font-weight: bold;
+  margin-left: 170px;
+  font-size: 18px;
+}
+body div.first {
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  row-gap: 15px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+body div.first img {
+  width: 100%;
+}
+body div.first div {
+  box-shadow: 3px 3px 7px 3px rgb(150, 142, 142);
+}
+body div.learn {
+  display: flex;
+  justify-content: center;
+}
+body div.learn button {
+  background-color: #0193DC;
+  border: none;
+  padding: 11px 33px;
+}/*# sourceMappingURL=gallery.css.map */
